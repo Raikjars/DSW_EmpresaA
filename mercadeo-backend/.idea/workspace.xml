@@ -5,13 +5,33 @@
       <artifact name="mercadeo-backend:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bf802c91-230b-41de-82e9-dc5cb6310edd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mercadeo-backend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persistence.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,9 +52,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -44,15 +68,21 @@
   </component>
   <component name="ProjectId" id="1kKfIsbwFN3T7KSQPJv48dBTjVW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Taller #3/pruebaorm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -60,24 +90,30 @@
       <recent name="Controllers" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn war:war" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="JBossConfiguration" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="JBoss 21.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="JBossConfiguration" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="JBoss 22.0.0.Alpha1" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="BROWSER_ID" value="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="mercadeo-backend:war exploded">
           <settings />
@@ -87,7 +123,7 @@
         <option name="SERVER" />
         <option name="BINDING_SET_NAME" value="" />
         <option name="DOMAIN" value="false" />
-        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="SERVER_GROUP" />
         <option name="USERNAME" value="" />
         <option name="CREDENTIAL_ALIAS" />
       </server-settings>
@@ -148,6 +184,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,23 +201,69 @@
       <workItem from="1605931367927" duration="2700000" />
       <workItem from="1605931388113" duration="583000" />
       <workItem from="1605931861215" duration="4364000" />
+      <workItem from="1606325390235" duration="681000" />
+      <workItem from="1606326226299" duration="4107000" />
+      <workItem from="1606356569248" duration="2172000" />
+      <workItem from="1606673615037" duration="18000" />
+      <workItem from="1606941115609" duration="3016000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="180" key="#BuildArtifactsBeforeRunChooser" timestamp="1606336983810">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="454" y="180" key="#BuildArtifactsBeforeRunChooser/0.0.1280.728@0.0.1280.728" timestamp="1606336983810" />
+    <state x="424" y="255" key="#JBoss_Server" timestamp="1606326986995">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="424" y="255" key="#JBoss_Server/0.0.1280.728@0.0.1280.728" timestamp="1606326986995" />
+    <state x="128" y="74" width="1092" height="602" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606336986054">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="128" y="74" width="1092" height="602" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.728@0.0.1280.728" timestamp="1606336986054" />
+    <state x="420" y="105" key="FileChooserDialogImpl" timestamp="1606673629140">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="420" y="105" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1606673629140" />
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom" timestamp="1606943535398">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom/0.0.1280.728@0.0.1280.728" timestamp="1606943535398" />
+    <state width="1237" height="194" key="GridCell.Tab.0.center" timestamp="1606943535398">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.center/0.0.1280.728@0.0.1280.728" timestamp="1606943535398" />
+    <state width="1237" height="194" key="GridCell.Tab.0.left" timestamp="1606943535398">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.left/0.0.1280.728@0.0.1280.728" timestamp="1606943535398" />
+    <state width="1237" height="194" key="GridCell.Tab.0.right" timestamp="1606943535398">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.right/0.0.1280.728@0.0.1280.728" timestamp="1606943535398" />
+    <state x="141" y="0" key="SettingsEditor" timestamp="1606327039506">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="141" y="0" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1606327039506" />
+    <state x="296" y="162" width="672" height="677" key="run.anything.popup" timestamp="1606943437951">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="296" y="162" width="672" height="677" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1606943437951" />
   </component>
 </project>
