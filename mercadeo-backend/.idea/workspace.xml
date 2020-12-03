@@ -3,45 +3,10 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="853591f0-68d4-4b3f-991b-255152856af9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mercadeo-backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mercadeo-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mercadeo-backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daos/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daos/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daos/DaoCategoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daos/DaoCategoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daos/DaoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daos/DaoHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/CategoriaDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/CategoriaDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/DtoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/DtoBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/EntidadBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/EntidadBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persistence.xml" afterDir="false" />
+    <list default="true" id="4da04ad9-1c94-4995-9afd-42a0bc012bb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../documentacion/mercadeoUCAB.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../documentacion/mercadeoUCAB.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentacion/mercadeoUCAB.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../documentacion/mercadeoUCAB.mwb.bak" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +15,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -71,26 +29,28 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1l85odL3YebCCAI8baNgE7wrN9g" />
+  <component name="ProjectId" id="1l8F1dt44NlEURLahI0R1BePAgc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../taller 3 Desarrollo" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install" />
+      <command value="mvn --update-plugins" />
+      <command value="mvn dependency:resolve-plugins" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.categoriaORMWS_Test.deleteCategoriaTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -102,53 +62,102 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="categoriaORMWS_Test.addCategoriaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servicio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="categoriaORMWS_Test" />
+      <option name="METHOD_NAME" value="addCategoriaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="categoriaORMWS_Test.deleteCategoriaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servicio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="categoriaORMWS_Test" />
+      <option name="METHOD_NAME" value="deleteCategoriaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="categoriaORMWS_Test.showCategoriaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servicio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="categoriaORMWS_Test" />
+      <option name="METHOD_NAME" value="showCategoriaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="categoriaORMWS_Test.updateCategoriaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servicio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="categoriaORMWS_Test" />
+      <option name="METHOD_NAME" value="updateCategoriaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.categoriaORMWS_Test.deleteCategoriaTest" />
+        <item itemvalue="JUnit.categoriaORMWS_Test.updateCategoriaTest" />
+        <item itemvalue="JUnit.categoriaORMWS_Test.showCategoriaTest" />
+        <item itemvalue="JUnit.categoriaORMWS_Test.addCategoriaTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="853591f0-68d4-4b3f-991b-255152856af9" name="Default Changelist" comment="" />
-      <created>1606966055862</created>
+      <changelist id="4da04ad9-1c94-4995-9afd-42a0bc012bb6" name="Default Changelist" comment="" />
+      <created>1606970599388</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606966055862</updated>
-      <workItem from="1606966064495" duration="3653000" />
+      <updated>1606970599388</updated>
+      <workItem from="1606970600390" duration="5224000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="179" key="GridCell.Tab.0.bottom" timestamp="1606968908410">
+    <state x="232" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606975362245">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.0.bottom/0.0.1280.728@0.0.1280.728" timestamp="1606968908410" />
-    <state width="1237" height="179" key="GridCell.Tab.0.center" timestamp="1606968908410">
+    <state x="232" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.728@0.0.1280.728" timestamp="1606975362245" />
+    <state x="370" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606973721202">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.0.center/0.0.1280.728@0.0.1280.728" timestamp="1606968908410" />
-    <state width="1237" height="179" key="GridCell.Tab.0.left" timestamp="1606968908410">
+    <state x="370" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.728@0.0.1280.728" timestamp="1606973721202" />
+    <state x="420" y="119" key="FileChooserDialogImpl" timestamp="1606975168961">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.0.left/0.0.1280.728@0.0.1280.728" timestamp="1606968908410" />
-    <state width="1237" height="179" key="GridCell.Tab.0.right" timestamp="1606968908410">
+    <state x="420" y="119" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1606975168961" />
+    <state width="1237" height="395" key="GridCell.Tab.0.bottom" timestamp="1606976883079">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.0.right/0.0.1280.728@0.0.1280.728" timestamp="1606968908410" />
-    <state x="296" y="162" width="672" height="677" key="run.anything.popup" timestamp="1606968860532">
+    <state width="1237" height="395" key="GridCell.Tab.0.bottom/0.0.1280.728@0.0.1280.728" timestamp="1606976883079" />
+    <state width="1237" height="395" key="GridCell.Tab.0.center" timestamp="1606976883079">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="296" y="162" width="672" height="677" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1606968860532" />
+    <state width="1237" height="395" key="GridCell.Tab.0.center/0.0.1280.728@0.0.1280.728" timestamp="1606976883079" />
+    <state width="1237" height="395" key="GridCell.Tab.0.left" timestamp="1606976883079">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1237" height="395" key="GridCell.Tab.0.left/0.0.1280.728@0.0.1280.728" timestamp="1606976883079" />
+    <state width="1237" height="395" key="GridCell.Tab.0.right" timestamp="1606976883079">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1237" height="395" key="GridCell.Tab.0.right/0.0.1280.728@0.0.1280.728" timestamp="1606976883079" />
+    <state x="296" y="162" width="672" height="677" key="run.anything.popup" timestamp="1606976209922">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="296" y="162" width="672" height="677" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1606976209922" />
   </component>
 </project>
