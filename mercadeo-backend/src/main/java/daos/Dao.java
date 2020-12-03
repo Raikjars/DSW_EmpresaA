@@ -1,32 +1,26 @@
 package daos;
 
 import entidades.EntidadBase;
-/*
+
 import javax.persistence.EntityManager;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
- */
 import java.util.List;
 
-public class Dao <T>{
-
-
+public class Dao<T>
+{
     private DaoHandler _daoHandler;
-//    private EntityManager _em;
+    private EntityManager _em;
 
     public Dao()
     {
     }
 
 
-
     /**
      * @param daoHandler persistence.xml handler
      */
-
-
-
     public Dao( DaoHandler daoHandler )
     {
         _daoHandler = daoHandler;
@@ -36,20 +30,18 @@ public class Dao <T>{
 
     public T insert( T entity )
     {
-//        _em = _daoHandler.getSession();
+        _em = _daoHandler.getSession();
 
         try
         {
-            /*
             _daoHandler.beginTransaction();
             _em.persist( entity );
             _em.flush();
             _daoHandler.finishTransaction();
-             */
         }
         catch ( Exception e )
         {
-            throw  e;
+            throw e;
         }
 
         return entity;
@@ -58,24 +50,21 @@ public class Dao <T>{
 
     public T update( T entity )
     {
-//        _em = _daoHandler.getSession();
+        _em = _daoHandler.getSession();
         try
         {
-            /*
             _daoHandler.beginTransaction();
             _em.merge( entity );
             _em.flush();
             _daoHandler.finishTransaction();
-            */
+
         }
         catch ( Exception e )
         {
-            throw  e;
+           throw  e;
         }
         return entity;
     }
-
-
 
     /**
      * Name:                  delete
@@ -86,20 +75,15 @@ public class Dao <T>{
      * @author teixbr
      * @since 20/10/17
      */
-
-
-
     public T delete( T entity )
     {
- //       _em = _daoHandler.getSession();
+        _em = _daoHandler.getSession();
         try
         {
-            /*
             _daoHandler.beginTransaction();
             _em.remove( entity );
             _em.flush();
             _daoHandler.finishTransaction();
-             */
 
         }
         catch ( Exception e )
@@ -108,8 +92,6 @@ public class Dao <T>{
         }
         return entity;
     }
-
-
 
     /**
      * Name:                  findAll
@@ -120,24 +102,17 @@ public class Dao <T>{
      * @author teixbr
      * @since 20/10/17
      */
-
-
-
-    /*
-    public List<T> findAll(Class<T> type )
+    public List<T> findAll( Class<T> type )
     {
-       _em = _daoHandler.getSession();
-
+        _em = _daoHandler.getSession();
 
         final CriteriaBuilder criteriaBuilder = _em.getCriteriaBuilder();
         final CriteriaQuery<T> criteriaQuery = criteriaBuilder.createQuery( type );
         final Root<T> root = criteriaQuery.from( type );
         final List<T> list;
 
-
         try
         {
-
             criteriaQuery.select( root );
 
             list = _em.createQuery( criteriaQuery ).getResultList();
@@ -150,9 +125,6 @@ public class Dao <T>{
 
         return list;
     }
-     */
-
-
 
     /**
      * Name:                  find
@@ -164,9 +136,6 @@ public class Dao <T>{
      * @author teixbr
      * @since 20/10/17
      */
-
-
-    /*
     public T find( Long id, Class<T> type )
     {
         _em = _daoHandler.getSession();
@@ -174,11 +143,9 @@ public class Dao <T>{
 
         try
         {
-
             final EntidadBase base = ( EntidadBase ) _em.find( type, id );
             base.get_id();
             entity = ( T ) base;
-
         }
         catch ( Exception e )
         {
@@ -186,8 +153,6 @@ public class Dao <T>{
         }
         return entity;
     }
-    */
-
 
     /**
      * Name:                  getDaoHandler
@@ -196,11 +161,8 @@ public class Dao <T>{
      * @return instance of daoHandler
      *
      * @author soarje
-     * @sinc
-     * e 10/24/17
+     * @since 10/24/17
      */
-
-
     public DaoHandler getDaoHandler()
     {
         return _daoHandler;

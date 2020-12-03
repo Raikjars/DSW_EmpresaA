@@ -9,5 +9,8 @@
         <module name="mercadeo-backend" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mercadeo-backend" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
